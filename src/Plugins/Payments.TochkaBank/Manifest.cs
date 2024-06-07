@@ -3,9 +3,8 @@ using Grand.Infrastructure.Plugins;
 
 [assembly: PluginInfo(
     FriendlyName = "Tochka Bank Payment Plugin",
-    Group = "Payments",
-    SystemName = "Payments.TochkaBank",
-    SupportedVersion = GrandVersion.SupportedPluginVersion,
+    Group = "Payment methods",
+    SystemName = "Payments.TochkaBank",    
     Author = "medicsmarket.org",
-    Version = GrandVersion.SupportedPluginVersion + ".001"
+    Version = "2.1.1"
 )]
